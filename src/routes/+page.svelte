@@ -42,14 +42,18 @@
 </svelte:head>
 
 <section id="landing">
-  <div class="content">
-    <span>Made with Sveltekit</span>
-    <h1>Web development,<br /> streamlined</h1>
+  <header>
+    <h1>M.o.b. website</h1>
+    <h2>megabytes of bad guy</h2>
+  </header>
+
+  <div class="description">
     <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates adipisci et magni
-      laborum, voluptatibus omnis soluta numquam neque eaque inventore.
+      Welcome to the <span class="wht">hottest</span> Mob Website .<br /> Visit the
+      <span class="caps">sleeps with the fishes report</span><br />
+      <span class="btm-line">
+        your insider's guide to who's in and out in today's La Cosa Nostra
+      </span>
     </p>
-    <a href="/" class="cta">Read the docs</a>
   </div>
-  <img class="hero" src="/img01.jpg" alt="laptop" width="500" height="610" decoding="async" />
 </section>
